@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ :root {
+    --offwhite: rgb(230, 230, 230);
+    --dark-gray: rgb(20, 20, 20);
+    --gray: rgb(30, 30, 30);
+    --light-gray: rgb(40, 40, 40);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body.fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-offwhite {
+    color: rgb(230, 230, 230);
+}
+
+.color-black {
+    color: black;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-darkgray {
+    color: rgb(60, 60, 60);
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-style: normal;
+        font-size: 35px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h2 {
+        font-style: normal;
+        font-size: 30px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h3 {
+        font-style: normal;
+        font-size: 25px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    p {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+    a {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    h1 {
+        font-style: normal;
+        font-size: 30px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h2 {
+        font-style: normal;
+        font-size: 25px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h3 {
+        font-style: normal;
+        font-size: 20px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    p {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+    a {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-style: normal;
+        font-size: 30px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h2 {
+        font-style: normal;
+        font-size: 25px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    h3 {
+        font-style: normal;
+        font-size: 20px;
+        color: var(--offwhite);
+        text-align: center;
+    }
+    p {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+    a {
+        font-style: normal;
+        font-size: 14px;
+        color: var(--offwhite);
+    }
+}
+
+color: white;
+
+}
+.color-offwhite {
+    color: rgb(200, 200, 200);
+}
+.color-black {
+    color: black;
+}
+.color-green {
+    color: green;
+}
+.color-red {
+    color: red;
+}
+.color-darkgray {
+    color: rgb(60, 60, 60);
+}
+@media (min-width: 1024px) {
+    h1 {
+        font-style: normal;
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-style: normal;
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-style: normal;
+        font-size: 25px;
+    }
+    
+    p {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    a {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .pc-none {
+        display: none;
+    }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    h1 {
+        font-style: normal;
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-style: normal;
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    p {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    a {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .tab-none {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    h1 {
+        font-style: normal;
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-style: normal;
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    p {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    a {
+        font-style: normal;
+        font-size: 14px;
+    }
+    
+    .sp-none {
+        display: none;
+    }
+}
